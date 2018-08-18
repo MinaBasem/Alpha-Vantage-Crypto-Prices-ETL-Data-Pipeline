@@ -4,7 +4,8 @@ import time
 
 number = random.randint(1, 25)
 number = int(number)
-guesses = 0
+guesses = 0                 # Number of times the user guessed the number
+assigned_Guesses = 8        # Number of guesses allowed for a user
 
 name = input("Hello! What is your name?? ")
 print("Hi " + name + " I'm guessing a number between 1 and 25")
@@ -13,7 +14,7 @@ time.sleep(2.5)
 lowAnswers = ["This is a little bit low, try a bigger number", "Try a bigger number please", "Try a bigger number", "Number is bigger than that"]
 highAnswers = ["This is kinda high try a smaller number", "Try a smaller number", "Number is large, try a smaller one", "The number i am guessing is lower"]
 
-while guesses <= 8:
+while guesses <= assigned_Guesses:
     guess = input("Guess a number ")
     guess = int(guess)
     guesses = guesses + 1
