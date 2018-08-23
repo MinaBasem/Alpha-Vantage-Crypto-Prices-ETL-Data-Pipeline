@@ -53,13 +53,6 @@ def calculate():
 
 root = Tk()
 
-label_root = Frame(root)
-label_root.pack()
-
-# LABEL BOX ----------------------
-label = Label(label_root, text="Welcome", height="2")
-label.pack()
-
 frame_one = Frame(root)
 frame_one.pack()
 
