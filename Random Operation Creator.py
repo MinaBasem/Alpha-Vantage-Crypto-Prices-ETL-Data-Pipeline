@@ -32,18 +32,22 @@ def exit():
 def calculate():
     if random_operator == operators[0]:
         answer1 = num1 + num2
+        tkinter.messagebox.showinfo("Answer", answer1)
         print("Answer: %s" % answer1)
 
     if random_operator == operators[1]:
         answer2 = num1 - num2
+        tkinter.messagebox.showinfo("Answer", answer2)
         print("Answer: %s" % answer2)
 
     if random_operator == operators[2]:
         answer3 = num1 / num2
+        tkinter.messagebox.showinfo("Answer", answer3)
         print("Answer: %s" % answer3)
 
     if random_operator == operators[3]:
         answer4 = num1 * num2
+        tkinter.messagebox.showinfo("Answer", answer4)
         print("Answer: %s" % answer4)
     
 
