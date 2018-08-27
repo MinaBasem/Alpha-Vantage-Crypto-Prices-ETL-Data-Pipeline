@@ -1,14 +1,14 @@
 
 # Author: Mina Basem
 # This software allows you to create
-# multiple folders / directories where you keep the code file
+# multiple folders / directories where you save the code file
 
 import os
 from random import *
 import string
 
-numberOfDirectories = 5         # Number of folders you would like to create
-lengthOfName = randint(3, 5)    # Amount of letters needed in the name of each folder / directory
+numberOfDirectories = 5         # Number of folders you would like to create, adjust as needed
+lengthOfName = randint(3, 5)    # Amount of letters needed in the title (name) of each folder / directory
 
 path = os.getcwd()
 print ("The current working directory is %s" % path)
