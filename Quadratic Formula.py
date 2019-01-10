@@ -14,7 +14,9 @@ def sqr():
     if num2 <= 0:
         print("No solution")
         rst = input("Press ENTER to restart")
+        os.system('cls')
         sqr()
+        
 
     positive = str((num1 + math.sqrt(num2)) / den)
     negative = str((num1 - math.sqrt(num2)) / den)
