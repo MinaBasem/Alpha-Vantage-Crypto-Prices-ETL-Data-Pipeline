@@ -66,11 +66,11 @@ CREATE TABLE prices_and_change (
 ```
 Conn Id: postgres_default
 Conn Type: Postgres
-Host: <your_postgresql_host>
+Host: <postgresql_host>
 Schema: Crypto (database name)
 Login: postgres
-Password: 3362
-Port: 5432 (default PostgreSQL port)
+Password: ####
+Port: 5432
 ```
 
 ### Running the DAG
