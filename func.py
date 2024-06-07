@@ -19,7 +19,7 @@ def extract():        # Extract phase
         querystring = {"from_currency":pair,"function":"CURRENCY_EXCHANGE_RATE","to_currency":"USD"}
 
         headers = {
-            "x-rapidapi-key": "f35d6cc549msh5379362dc0450acp14361bjsn793713a82508",
+            "x-rapidapi-key": "#############################",
             "x-rapidapi-host": "alpha-vantage.p.rapidapi.com"
         }
 
